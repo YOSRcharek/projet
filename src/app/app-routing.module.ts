@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ErreurComponent } from './erreur/erreur.component';
 import { HomeComponent } from './home/home.component';
 import { ListsejourComponent } from './listsejour/listsejour.component';
+import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path:'aboutus',component:AboutusComponent},
   {path:'authen',component:AuthenComponent},
+  {path:'search',component:SearchComponent},
   {path:'',redirectTo:'home',pathMatch:'full'},
    {path:'**',component:ErreurComponent}
   

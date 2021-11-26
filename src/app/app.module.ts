@@ -12,6 +12,12 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactComponent } from './contact/contact.component';
 import { ErreurComponent } from './erreur/erreur.component';
 import { FormsModule } from '@angular/forms';
+import { SearchComponent } from './search/search.component';
+import { HotelComponent } from './hotel/hotel.component';
+import { MaisonComponent } from './maison/maison.component';
+import { PromoMaisonComponent } from './promo-maison/promo-maison.component';
+import { PromoHotelComponent } from './promo-hotel/promo-hotel.component';
+import { GratuitEnfComponent } from './gratuit-enf/gratuit-enf.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     AboutusComponent,
     ContactComponent,
-    ErreurComponent
+    ErreurComponent,
+    SearchComponent,
+    HotelComponent,
+    MaisonComponent,
+    PromoMaisonComponent,
+    PromoHotelComponent,
+    GratuitEnfComponent
   ],
   imports: [
     BrowserModule,
